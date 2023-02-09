@@ -1,0 +1,36 @@
+@media (max-width: 739px){
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .menu-btn:hover{
+        color: #000;
+        background-color: #ccc;
+    }
+    #header .menu-btn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+    #nav {
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li a{
+        display: block;
+    }
+    #nav .sub-nav{
+        position: initial;
+        background: #757575;
+        padding: 0 25px;
+    }
+}
